@@ -9,7 +9,8 @@
         <module>core</module>
         <module>app</module>
     </modules>
-	    <plugins>
+<build>	
+    <plugins>
         <plugin>
             <groupId>com.github.danielflower.mavenplugins</groupId>
             <artifactId>multi-module-maven-release-plugin</artifactId>
@@ -21,4 +22,6 @@
             </configuration>
         </plugin>
     </plugins>
+</build>	
+
 </project>
